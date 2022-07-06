@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-grpc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:server": "nodemon welcome_server.js",
+    "start:client": "node welcome_client.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.6.7",
+    "@grpc/proto-loader": "^0.6.13",
+    "minimist": "^1.2.6",
+    "nodemon": "^2.0.19"
+  }
+}
